@@ -1,0 +1,31 @@
+El registro de los datos del día: 5/6/2020 es:
+Nombres: Gerardo Fernando		Apellidos: Camacho Gonzalez
+Genero: Masculino			Fecha de nacimiento: 5/6/2002
+----------------------------------------------------------
+Nombres: Imanol De Jesus		Apellidos: Cantu De La Fuente
+Genero: Masculino			Fecha de nacimiento: 16/8/2016
+----------------------------------------------------------
+Nombres: Naomi Dennis		Apellidos: Carvajal Fierro
+Genero: Femenino			Fecha de nacimiento: 1/11/2002
+----------------------------------------------------------
+Nombres: Angela Abigail		Apellidos: Casas Sasso
+Genero: Femenino			Fecha de nacimiento: 13/6/2019
+----------------------------------------------------------
+Nombres: Ebher Alejandro		Apellidos: Garcia Arroyo
+Genero: Masculino			Fecha de nacimiento: 20/9/2004
+----------------------------------------------------------
+Nombres: Angela Abigail		Apellidos: Luz Mendoza
+Genero: Femenino			Fecha de nacimiento: 27/12/1972
+----------------------------------------------------------
+Nombres: Manuel Eder		Apellidos: Moreno Quintanilla
+Genero: Masculino			Fecha de nacimiento: 20/4/1994
+----------------------------------------------------------
+Nombres: Robin Patricia		Apellidos: Nico Gonzalez
+Genero: Femenino			Fecha de nacimiento: 5/3/1996
+----------------------------------------------------------
+Nombres: Pedro David 		Apellidos: Rosas Torres
+Genero: Masculino			Fecha de nacimiento: 5/5/1971
+----------------------------------------------------------
+Nombres: Pedro Alberto		Apellidos: Villa De Leon
+Genero: Masculino			Fecha de nacimiento: 15/6/1960
+----------------------------------------------------------

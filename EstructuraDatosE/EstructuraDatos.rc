@@ -1,0 +1,393 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Mexico) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESM)
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MEXICAN
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_WLogin DIALOGEX 0, 0, 254, 241
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Login"
+FONT 10, "MS Shell Dlg", 700, 0, 0x0
+BEGIN
+    LTEXT           "Usuario:",IDC_STATIC,84,107,66,8
+    LTEXT           "Contraseña:",IDC_STATIC,84,149,41,8
+    EDITTEXT        IDC_UsuarioL,84,119,84,18,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ContraL,84,161,84,18,ES_PASSWORD | ES_AUTOHSCROLL
+    PUSHBUTTON      "Entrar",IDC_Entrar,101,193,50,14
+    EDITTEXT        IDC_ContraML,84,161,84,18,ES_AUTOHSCROLL
+    CONTROL         "Mostrar",IDC_Mostrar,"Button",BS_AUTOCHECKBOX,171,165,44,10
+    LTEXT           "Usuario:PROFE",IDC_STATIC,7,7,49,10
+    LTEXT           "Contraseña:profe",IDC_STATIC,7,17,61,10
+    CONTROL         "",IDC_FotoInicio,"Static",SS_BITMAP,108,49,11,11
+END
+
+IDD_WPrincipal DIALOGEX 0, 0, 381, 232
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Principal"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_NombreUs,2,1,133,8
+    PUSHBUTTON      "Especialidad",IDC_Especialidad,121,192,66,25
+    PUSHBUTTON      "Medicos",IDC_Medicos,39,193,66,25
+    PUSHBUTTON      "Paciente",IDC_Paciente,201,192,66,25
+    PUSHBUTTON      "Citas",IDC_Citas,279,190,66,25
+    PUSHBUTTON      "Button1",IDC_MostrarCitas,279,145,69,26
+END
+
+IDD_WEspecial DIALOGEX 0, 0, 311, 183
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Especialidades"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_ToEspecial,162,18,126,152,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_IDEspecial,12,24,132,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_NomEspecial,12,56,132,14,ES_AUTOHSCROLL
+    LTEXT           "ID especialidad",IDC_STATIC,53,12,49,8
+    LTEXT           "Nombre especialidad",IDC_STATIC,43,42,66,8
+    PUSHBUTTON      "Borrar",IDC_BorrarEspecial,12,152,36,14,WS_DISABLED
+    PUSHBUTTON      "Modificar",IDC_ModEspecial,60,152,36,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Agregar",IDC_AgregarEspecial,108,152,36,14
+    LTEXT           "Especialidades",IDC_STATIC,201,7,48,8
+    EDITTEXT        IDC_DesEspecial,12,89,132,55,ES_AUTOHSCROLL
+    LTEXT           "Descripción especialidad",IDC_STATIC,37,76,78,8
+    LTEXT           "",IDC_NombreUs,0,0,138,8
+    PUSHBUTTON      "Mostrar",IDC_MostrarEsp,60,152,36,14,WS_DISABLED
+    LTEXT           "",IDC_IDError,144,26,8,8
+    LTEXT           "",IDC_NEspError,147,59,8,8
+    LTEXT           "",IDC_DesEspError,147,92,8,8
+END
+
+IDD_WMedicos DIALOGEX 0, 0, 339, 201
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Medicos"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_NombreUs,0,0,138,8
+    LTEXT           "Nombre:",IDC_STATIC,6,45,28,8
+    EDITTEXT        IDC_NombreMedico,42,42,156,14,ES_AUTOHSCROLL
+    LTEXT           "Cédula Profesional:",IDC_STATIC,6,70,63,8
+    EDITTEXT        IDC_CedulaMedico,67,67,127,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Número:",IDC_STATIC,210,45,28,8
+    EDITTEXT        IDC_NumeroMedico,237,42,84,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Días de trabajo:",IDC_STATIC,7,95,52,8
+    COMBOBOX        IDC_COMBOHoraI,163,117,60,59,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Horas de trabajo:",IDC_STATIC,105,119,58,8
+    LTEXT           "a",IDC_HorasTrabajo,230,119,11,8
+    LTEXT           "Foto del doctor:",IDC_STATIC,9,149,52,8
+    PUSHBUTTON      "Guardar",IDC_GuardarMedico,288,168,36,14
+    CONTROL         "Lunes",IDC_Lunes,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,62,94,30,10
+    CONTROL         "Martes",IDC_Martes,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,94,94,33,10
+    CONTROL         "Miércoles",IDC_Miercoles,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,129,94,42,10
+    CONTROL         "Jueves",IDC_Jueves,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,172,94,34,10
+    CONTROL         "Viernes",IDC_Viernes,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,208,94,35,10
+    CONTROL         "Sábado",IDC_Sabado,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,244,94,35,10
+    CONTROL         "Domingo",IDC_Domingo,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,282,94,40,10
+    COMBOBOX        IDC_COMBOEsp,247,68,75,42,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Especialidad:",IDC_STATIC,205,70,42,8
+    LTEXT           "Consultorio:",IDC_STATIC,8,119,40,8
+    COMBOBOX        IDC_COMBOCons,46,117,48,51,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Cédula Médico:",IDC_STATIC,12,20,50,8
+    EDITTEXT        IDC_MedicoBu,62,18,156,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Buscar",IDC_BuscarMed,228,18,50,14
+    PUSHBUTTON      "Editar",IDC_EditMedico,288,168,36,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Eliminar",IDC_EliminarMed,247,168,36,14,NOT WS_VISIBLE
+    COMBOBOX        IDC_COMBOHoraF,241,117,60,63,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Seleccionar",IDC_SeleFoto,135,138,43,14
+    CONTROL         "",IDC_MedicoFoto,"Static",SS_BITMAP,66,134,15,13
+    LTEXT           "",IDC_NombreError,198,45,8,8
+    LTEXT           "",IDC_NumeroError,322,45,8,8
+    LTEXT           "",IDC_CedulaError,195,70,8,8
+    LTEXT           "",IDC_EspecialidadError,323,71,8,8
+    LTEXT           "",IDC_ConsultorioError,95,120,8,8
+    LTEXT           "",IDC_HorasError,304,119,8,8
+    LTEXT           "",IDC_FotoError,138,156,8,8
+    LTEXT           "",IDC_DiasError,323,95,8,8
+END
+
+IDD_WPaciente DIALOGEX 0, 0, 321, 254
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Pacientes"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_NombreUs,0,0,138,8
+    LTEXT           "Apellidos:",IDC_STATIC,6,44,32,8
+    EDITTEXT        IDC_ReferenciaPaciente,48,134,174,54,ES_AUTOHSCROLL
+    LTEXT           "Número:",IDC_STATIC,6,90,28,8
+    EDITTEXT        IDC_NumeroPaciente,42,87,84,14,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "Guardar",IDC_GuardarPacien,264,204,36,14
+    CONTROL         "Femenino",IDC_Femenino,"Button",BS_AUTORADIOBUTTON | WS_GROUP,66,74,47,10
+    LTEXT           "Género:",IDC_STATIC,36,74,27,8
+    CONTROL         "Masculino",IDC_Masculino,"Button",BS_AUTORADIOBUTTON | WS_GROUP,114,74,47,10
+    LTEXT           "Edad:",IDC_STATIC,140,89,20,8
+    EDITTEXT        IDC_EdadPaciente,160,86,64,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    LTEXT           "Fecha de Nacimiento:",IDC_STATIC,11,113,72,8
+    CONTROL         "",IDC_FechaNacimiento,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,83,110,100,15
+    LTEXT           "Referencia:",IDC_STATIC,6,137,38,8
+    EDITTEXT        IDC_ApellidosPacien,42,42,165,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PrimerMedico,56,194,166,12,ES_AUTOHSCROLL
+    LTEXT           "Primer médico:",IDC_STATIC,6,197,48,8
+    PUSHBUTTON      "Seleccionar",IDC_SelectFecha,190,110,50,14
+    LTEXT           "Nombre:",IDC_STATIC,6,60,28,8
+    EDITTEXT        IDC_NombrePaciente,42,58,165,14,ES_AUTOHSCROLL
+    LTEXT           "",IDC_ApellidosError,208,47,8,8
+    LTEXT           "",IDC_NombrePError,210,65,8,8
+    LTEXT           "",IDC_GeneroError,162,74,8,8
+    LTEXT           "",IDC_EdadError,227,89,8,8
+    LTEXT           "",IDC_FechaPError,242,116,8,8
+    LTEXT           "",IDC_NumeroPError,126,90,8,8
+    LTEXT           "",IDC_RefError,223,135,8,8
+    LTEXT           "",IDC_NMedError,222,196,8,8
+    PUSHBUTTON      "Editar",IDC_EditPac,222,222,38,14,NOT WS_VISIBLE
+    LTEXT           "Apellido:",IDC_STATIC,12,18,28,8
+    EDITTEXT        IDC_BuscarPa,42,16,78,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Buscar",IDC_BBuscarPa,246,16,50,14
+    PUSHBUTTON      "Eliminar",IDC_EliminarPa,264,222,38,14,NOT WS_VISIBLE
+    EDITTEXT        IDC_BuscarPaN,157,16,80,14,ES_AUTOHSCROLL
+    LTEXT           "Nombre:",IDC_STATIC,126,19,28,8
+END
+
+IDD_WCitas DIALOGEX 0, 0, 331, 248
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Citas"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Especialidad:",IDC_STATIC,6,87,42,8
+    COMBOBOX        IDC_COMBEsp,48,86,66,48,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Médico:",IDC_STATIC,6,110,26,8
+    COMBOBOX        IDC_COMBMedico,33,108,171,48,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Seleccionar",IDC_Select,122,86,42,14
+    LTEXT           "Paciente:",IDC_STATIC,7,48,31,8
+    COMBOBOX        IDC_COMBPaciente,49,47,178,48,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Horario:",IDC_STATIC,195,132,30,8
+    COMBOBOX        IDC_COMBOHoraCita,222,131,66,49,CBS_DROPDOWN | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Seleccionar",IDC_SelMedico,214,108,50,14
+    PUSHBUTTON      "Guardar",IDC_GuardarCita,272,219,50,14
+    PUSHBUTTON      "Seleccionar",IDC_SelectPaciente,240,47,50,14
+    LTEXT           "Telefono:",IDC_STATIC,7,68,32,8
+    EDITTEXT        IDC_TelefonoP,42,66,84,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Static",IDC_NombreUs,0,0,138,8
+    LTEXT           "Foto:",IDC_STATIC,7,153,18,8
+    LTEXT           "Fecha:",IDC_STATIC,6,132,23,8
+    CONTROL         "",IDC_DATETIMEPICKERF,"SysDateTimePick32",DTS_RIGHTALIGN | WS_DISABLED | WS_TABSTOP,30,129,100,15
+    PUSHBUTTON      "Seleccionar",IDC_SelectFecha,148,129,42,14,WS_DISABLED
+    LTEXT           "Consultorio:",IDC_STATIC,95,153,40,8
+    EDITTEXT        IDC_Consult,138,151,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Clave cita:",IDC_STATIC,7,22,35,8
+    EDITTEXT        IDC_ClaveCita,44,19,114,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Buscar",IDC_BuscarCita,174,19,42,14
+    EDITTEXT        IDC_ClaveUsuario,238,150,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Clave Usuario:",IDC_STATIC,190,153,48,8
+    PUSHBUTTON      "Editar",IDC_EditCita,272,219,50,14,NOT WS_VISIBLE
+    LTEXT           "Motivo para cancelar:",IDC_CancelarStatic,6,195,70,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_CancelarText,6,207,186,30,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    CONTROL         "Pendiente",IDC_RADIOPendiente,"Button",BS_AUTORADIOBUTTON | NOT WS_VISIBLE,221,181,48,10
+    CONTROL         "Atendida",IDC_RADIOAtendida,"Button",BS_AUTORADIOBUTTON | NOT WS_VISIBLE,269,180,45,10
+    CONTROL         "Cancelada",IDC_CancelarCita,"Button",BS_AUTORADIOBUTTON | NOT WS_VISIBLE,168,180,49,10
+    CONTROL         "",IDC_FotoMedicoCi,"Static",SS_BITMAP,36,154,15,13
+    LTEXT           "",IDC_PacError,228,48,8,8
+    LTEXT           "",IDC_MedError,205,111,8,8
+    LTEXT           "",IDC_FechaCError,132,133,8,8
+    LTEXT           "",IDC_HoraCError,290,134,8,8
+END
+
+IDD_WMostrarCitas DIALOGEX 0, 0, 381, 230
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Mostrar Citas"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LISTCitas,156,24,210,192,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Citas:",IDC_STATIC,156,12,90,8
+    CONTROL         "Citas de médico por mes",IDC_MedMes,"Button",BS_AUTORADIOBUTTON,6,18,93,10
+    CONTROL         "Citas de especialidad por semana",IDC_EspSemana,"Button",BS_AUTORADIOBUTTON,6,33,122,10
+    CONTROL         "Todas las citas por semana",IDC_TodasSem,"Button",BS_AUTORADIOBUTTON,6,48,102,10
+    LTEXT           "Eliga una opción:",IDC_STATIC,12,6,90,8
+    PUSHBUTTON      "Seleccionar",IDC_Seleccionar,90,66,50,14
+    LTEXT           "",IDC_STATICEleg,6,84,122,8
+    CONTROL         "",IDC_DATETIMEPICKERCitas,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_SHORTDATECENTURYFORMAT | NOT WS_VISIBLE | WS_TABSTOP,6,114,66,15
+    PUSHBUTTON      "Seleccionar",IDC_SeleccionarF,90,114,50,14,NOT WS_VISIBLE
+    EDITTEXT        IDC_MedicoID,54,96,90,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "",IDC_STATICCedula,6,98,42,8
+    COMBOBOX        IDC_COMBEspecial,48,96,84,58,CBS_DROPDOWN | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Registro Citas",IDC_SeleccionarRegistro,90,130,50,14,NOT WS_VISIBLE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_WLogin, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 234
+    END
+
+    IDD_WPrincipal, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 374
+        VERTGUIDE, 234
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 225
+    END
+
+    IDD_WEspecial, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 304
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_WMedicos, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 332
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_WPaciente, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 314
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 247
+    END
+
+    IDD_WCitas, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 324
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 241
+    END
+
+    IDD_WMostrarCitas, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 374
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 223
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_WLogin AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_WPrincipal AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_WEspecial AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_WMedicos AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_WPaciente AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_WCitas AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_WMostrarCitas AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Spanish (Mexico) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Spain, International Sort) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Spanish (Spain, International Sort) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

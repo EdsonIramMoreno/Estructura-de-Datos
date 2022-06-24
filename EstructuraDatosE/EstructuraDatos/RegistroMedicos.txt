@@ -1,0 +1,16 @@
+El registro de los datos del día: 5/6/2020 es:
+Cedula profesional: 1234556789			Nombre: Edson Iram Moreno
+Especialidad: NEUROLOGIA			Numero de telefono: 23456576
+
+Cedula profesional: 1245677890			Nombre: Andrea Yemillet Bustos
+Especialidad: CARDIOLOGIA			Numero de telefono: 1234325467
+
+Cedula profesional: 2134567890			Nombre: Luis Angel Mtz Lopez
+Especialidad: CARDIOLOGIA			Numero de telefono: 34567655
+
+Cedula profesional: 3456876544			Nombre: Juan Jose Castro Rosas
+Especialidad: ODONTOLOGIA			Numero de telefono: 77968576
+
+Cedula profesional: 7352648856			Nombre: Marilu Quintanilla Garza
+Especialidad: ODONTOLOGIA			Numero de telefono: 34456578
+

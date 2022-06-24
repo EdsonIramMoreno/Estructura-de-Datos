@@ -1,0 +1,6 @@
+C:\Users\edson\Desktop\EstructuraDatos\x64\Debug\EstructuraDatos.exe
+C:\Users\edson\Desktop\EstructuraDatos\x64\Debug\EstructuraDatos.pdb
+C:\Users\edson\Desktop\EstructuraDatosE\x64\Debug\EstructuraDatos.exe
+C:\Users\edson\Desktop\EstructuraDatosE\x64\Debug\EstructuraDatos.pdb
+C:\Users\edson\Desktop\ProyectoED\EstructuraDatosE\x64\Debug\EstructuraDatos.exe
+C:\Users\edson\Desktop\ProyectoED\EstructuraDatosE\x64\Debug\EstructuraDatos.pdb

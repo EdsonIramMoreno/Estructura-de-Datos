@@ -1,0 +1,24 @@
+﻿  DatMedico.cpp
+  Main.cpp
+C:\Users\edson\Desktop\EstructuraDatos\Main.cpp(350,23): warning C4244: '=': conversion from 'LRESULT' to 'short', possible loss of data
+C:\Users\edson\Desktop\EstructuraDatos\Main.cpp(365,22): warning C4244: '=': conversion from 'LRESULT' to 'short', possible loss of data
+C:\Users\edson\Desktop\EstructuraDatos\Main.cpp(373,22): warning C4244: '=': conversion from 'LRESULT' to 'short', possible loss of data
+C:\Users\edson\Desktop\EstructuraDatos\Main.cpp(378,22): warning C4244: '=': conversion from 'LRESULT' to 'short', possible loss of data
+C:\Users\edson\Desktop\EstructuraDatos\Main.cpp(537,22): warning C4244: '=': conversion from 'LRESULT' to 'short', possible loss of data
+C:\Users\edson\Desktop\EstructuraDatos\Main.cpp(567,21): warning C4244: '=': conversion from 'LRESULT' to 'short', possible loss of data
+C:\Users\edson\Desktop\EstructuraDatos\Main.cpp(762,22): warning C4244: '=': conversion from 'LRESULT' to 'short', possible loss of data
+C:\Users\edson\Desktop\EstructuraDatos\Main.cpp(903,27): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\edson\Desktop\EstructuraDatos\Main.cpp(1128,28): warning C4101: 'Day': unreferenced local variable
+C:\Users\edson\Desktop\EstructuraDatos\Main.cpp(1128,17): warning C4101: 'Month': unreferenced local variable
+C:\Users\edson\Desktop\EstructuraDatos\Main.cpp(1128,7): warning C4101: 'Year': unreferenced local variable
+C:\Users\edson\Desktop\EstructuraDatos\Main.cpp(1189,20): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+C:\Users\edson\Desktop\EstructuraDatos\Main.cpp(819,1): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\edson\Desktop\EstructuraDatos\Main.cpp(485): message : see reference to function template instantiation 'bool ChecarNumeros<Especialidad>(char *,short,short)' being compiled
+C:\Users\edson\Desktop\EstructuraDatos\Main.cpp(866,1): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\edson\Desktop\EstructuraDatos\Main.cpp(485): message : see reference to function template instantiation 'bool ChecarNombre<Especialidad>(char *,short,short)' being compiled
+  Generating Code...
+C:\Users\edson\Desktop\EstructuraDatos\Main.cpp(979): warning C4715: 'ChecarTelefonos': not all control paths return a value
+C:\Users\edson\Desktop\EstructuraDatos\Main.cpp(1002): warning C4715: 'ChecarCedulas': not all control paths return a value
+C:\Users\edson\Desktop\EstructuraDatos\Main.cpp(1081): warning C4715: 'validarHorarioMedicos': not all control paths return a value
+C:\Users\edson\Desktop\EstructuraDatos\Main.cpp(1124): warning C4715: 'checarHorarios': not all control paths return a value
+  EstructuraDatos.vcxproj -> C:\Users\edson\Desktop\EstructuraDatos\Debug\EstructuraDatos.exe
